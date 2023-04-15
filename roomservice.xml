@@ -5,13 +5,13 @@
   <project name="ExyHyperBrick/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" revision="lineage-20-slsi" />
   <project name="ExyHyperBrick/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="lineage-20-slsi" />
   <project name="ExyHyperBrick/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" revision="lineage-20-slsi" />
-  <project name="ExyHyperBrick/proprietary_vendor_samsung_exynos9810-common" path="vendor/samsung/exynos9810-common" remote="github_ssh" revision="lineage-20-slsi" />
-  <project name="ExyHyperBrick/proprietary_vendor_samsung_crownlte" path="vendor/samsung/crownlte" remote="github_ssh" revision="lineage-20-slsi" />
-  <project name="ExyHyperBrick/proprietary_vendor_samsung_star2lte" path="vendor/samsung/star2lte" remote="github_ssh" revision="lineage-20-slsi" />
-  <project name="ExyHyperBrick/proprietary_vendor_samsung_starlte" path="vendor/samsung/starlte" remote="github_ssh" revision="lineage-20-slsi" />
+  <project name="ExyHyperBrick/proprietary_vendor_samsung_exynos9810-common" path="vendor/samsung/exynos9810-common" remote="github" revision="lineage-20-slsi" />
+  <project name="ExyHyperBrick/proprietary_vendor_samsung_crownlte" path="vendor/samsung/crownlte" remote="github" revision="lineage-20-slsi" />
+  <project name="ExyHyperBrick/proprietary_vendor_samsung_star2lte" path="vendor/samsung/star2lte" remote="github" revision="lineage-20-slsi" />
+  <project name="ExyHyperBrick/proprietary_vendor_samsung_starlte" path="vendor/samsung/starlte" remote="github" revision="lineage-20-slsi" />
   <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-20" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-20" />
-  <project name="ExyHyperBrick/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github_ssh" revision="lineage-20-slsi" />
-  <project name="ExyHyperBrick/android_hardware_samsung_slsi_graphics" path="hardware/samsung_slsi/graphics" remote="github_ssh" revision="lineage-20-slsi" />
-  <project name="ExyHyperBrick/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github_ssh" revision="lineage-20-slsi" />
+  <project name="ExyHyperBrick/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-20-slsi" />
+  <project name="ExyHyperBrick/android_hardware_samsung_slsi_graphics" path="hardware/samsung_slsi/graphics" remote="github" revision="lineage-20-slsi" />
+  <project name="ExyHyperBrick/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github" revision="lineage-20-slsi" />
 </manifest>
