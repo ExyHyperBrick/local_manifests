@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+#<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="ExyHyperBrick/android_kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" remote="github" revision="lineage-23.2" />
-  <project name="ExyHyperBrick/android_device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="github" revision="lineage-23.2-ims" />
+  <project name="ExyHyperBrick/android_device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="github" revision="lineage-23.2" />
   <project name="ExyHyperBrick/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" revision="lineage-23.2" />
   <project name="ExyHyperBrick/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="lineage-23.2" />
   <project name="ExyHyperBrick/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" revision="lineage-23.2" />
@@ -18,13 +18,8 @@
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-23.2" />
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-23.2" />
   <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="lineage-23.2" />
-  <project path="packages/apps/PhhIms" remote="github" name="krazey/ims" revision="main" />
   <!--
        Apply the repopicks above or use PATCHES.zip and extract it into the android root directory and execute apply_patches: ~/PATCHES/apply_patches.sh *
-
-       After syncing and patches, initialize the submodules. repo sync does not do this automatically:
-       cd packages/apps/PhhIms
-       git submodule update --init --recursive
 
        * After every resync you have to reapply the patches/(repopicks)
   -->
