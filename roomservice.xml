@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="ExyHyperBrick/android_kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" remote="github" revision="lineage-23.2" />
-  <project name="ExyHyperBrick/android_device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="github" revision="lineage-23.2-ims" />
+  <project name="ExyHyperBrick/android_device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="github" revision="lineage-23.2-imsstack" />
   <project name="ExyHyperBrick/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" revision="lineage-23.2" />
   <project name="ExyHyperBrick/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="lineage-23.2" />
   <project name="ExyHyperBrick/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" revision="lineage-23.2" />
@@ -19,7 +19,10 @@
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-23.2" />
   <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="lineage-23.2" />
   <project name="ExyHyperBrick/android_hardware_samsung_slsi_exynos_dtbh" path="hardware/samsung_slsi/exynos/dtbh" remote="github" revision="lineage-23.2" />
-  <project path="packages/apps/PhhIms" remote="github" name="krazey/ims" revision="main" />
+  <project path="packages/modules/ImsStack" remote="github" name="krazey/ImsStack" revision="main" />
+  <remove-project name="platform/packages/modules/ImsMedia"/>
+  <project path="packages/modules/ImsMedia" remote="github" name="krazey/ImsMedia" revision="main" />
+  <project path="vendor/lineage/imsstack-carrier-config-ext" remote="github" name="krazey/imsstack-carrier-config-ext" revision="main" />
   <!--
        Apply the repopicks above or use PATCHES.zip and extract it into the android root directory and execute apply_patches: ~/PATCHES/apply_patches.sh *
 
