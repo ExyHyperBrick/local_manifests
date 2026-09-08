@@ -18,7 +18,6 @@
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-23.2" />
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-23.2" />
   <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="lineage-23.2" />
-  <project name="ExyHyperBrick/android_hardware_samsung_slsi_exynos_dtbh" path="hardware/samsung_slsi/exynos/dtbh" remote="github" revision="lineage-23.2" />
   <project path="packages/modules/ImsStack" remote="github" name="krazey/ImsStack" revision="main" />
   <remove-project name="platform/packages/modules/ImsMedia"/>
   <project path="packages/modules/ImsMedia" remote="github" name="krazey/ImsMedia" revision="main" />
