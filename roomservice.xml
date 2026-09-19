@@ -1,4 +1,4 @@
-#<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="ExyHyperBrick/android_kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" remote="github" revision="lineage-24.0" />
   <project name="ExyHyperBrick/android_device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="github" revision="lineage-24.0" />
