@@ -21,7 +21,8 @@
   <project path="packages/modules/ImsStack" remote="github" name="krazey/ImsStack" revision="main" />
   <remove-project name="platform/packages/modules/ImsMedia"/>
   <project path="packages/modules/ImsMedia" remote="github" name="krazey/ImsMedia" revision="main" />
-  <project path="vendor/lineage/imsstack-carrier-config-ext" remote="github" name="krazey/imsstack-carrier-config-ext" revision="main" />
+  <remove-project name="LineageOS/android_hardware_lineage_generic-ims"/>
+  <project path="packages/apps/CarrierSettings" remote="github" name="krazey/CarrierSettings" revision="main" />
   <!--
        Apply the repopicks above or use PATCHES.zip and extract it into the android root directory and execute apply_patches: ~/PATCHES/apply_patches.sh *
 
